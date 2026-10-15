@@ -1,0 +1,14 @@
+========================================
+ ICMP Security Reference Script
+========================================
+[ PASS ] net.ipv4.icmp_echo_ignore_broadcasts = 1
+[ PASS ] net.ipv4.icmp_ignore_bogus_error_responses = 1
+[ WARNING ] net.ipv4.conf.all.accept_redirects = 1 (expected 0)
+[ WARNING ] net.ipv4.conf.default.accept_redirects = 1 (expected 0)
+[ WARNING ] net.ipv4.conf.all.send_redirects = 1 (expected 0)
+[ WARNING ] net.ipv4.conf.default.send_redirects = 1 (expected 0)
+[ WARNING ] net.ipv4.conf.all.rp_filter = 0 (expected 1)
+[ WARNING ] net.ipv4.conf.default.rp_filter = 2 (expected 1)
+========================================
+ ICMP reference check completed
+========================================
